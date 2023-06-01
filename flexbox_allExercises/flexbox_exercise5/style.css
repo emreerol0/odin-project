@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body {
+    height: 100%;
+  }
+  
+body{
+    text-align: center;
+    background-color: gray;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    background-color: aliceblue;
+    box-shadow: 2px 4px 16px rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 500px;
+    padding: 15px;
+    gap: 10px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 10px;
+    margin: 5px;
+}
+#sure {
+    font-weight: 1000;
+    font-size: larger;
+}
+#continue {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+#cancel {
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
+#warning {
+    font-size: 26px;
+    font-weight: 900;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: royalblue;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#closebutton {
+    color: rgb(138, 141, 170);
+    font-weight: 1000;
+    height: 25px;
+    width: 15px;
+    border-radius: 50px;
+    border-color: rgb(233, 236, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lorem {
+    font-size: 16px;
+    font-weight: 600px;
+}
