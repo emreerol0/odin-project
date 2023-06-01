@@ -1,0 +1,32 @@
+.container {
+    background-color: blanchedalmond;
+    font-family: monospace;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#header {
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 32px;
+    
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 11px;
+}
+
+a {
+    background: white;
+    font-size: 17px;
+    padding: 10px;
+    text-decoration: none;
+}
