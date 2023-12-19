@@ -1,0 +1,182 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/giphy.gif);
+    background-size: cover;
+}
+
+/* header part */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+#logo {
+    width: 130px;
+    height: 130px;
+    border: black;
+    border-radius: 50%;
+    margin: 20px;
+}
+ul {
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+.headerlink {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+/* hero part */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: left;
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.leftLower {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 19px;
+    
+}
+
+#heromaintext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#herosecondarytext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#heroregister {
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    border: none;
+    
+}
+#lowerimage {
+    width: 500px;
+    height: 350px;
+    border-radius: 4px;
+    margin: 25px;
+}
+/* content part */
+.content {
+    padding: 20px;
+}
+#contentmaintext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #abb6c5;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.allContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.eachContent {
+    text-align: center;
+    color: #709fb4;
+    font-size: 20px;
+    border-width: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.eachContent img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #709fb4;
+    border-radius: 15px;
+}
+/* quote part */
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    color: #1f2937;
+}
+
+cite {
+    position: relative;
+    right: 100px;
+    top: 40px;
+}
+
+/* register part */
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #3882F6;
+    margin: 50px;
+    height: 140px;
+    gap: 155px;
+    border-radius: 5px;
+}
+
+.register .texts {
+    color: #E5E7EB;
+    border: black;    
+}
+
+.register #signal {
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.register button {
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #fafafa;
+    border:2px solid #E5E7EB;
+    border-radius: 5px;
+    
+}
+/*footer*/
+
+.footer {
+    background-color: rgb(62, 13, 119);
+    font-size: 30px;
+    text-align: center;
+    color: #dfe4ee;
+}
